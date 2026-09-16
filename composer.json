@@ -1,0 +1,23 @@
+{
+    "name": "allyfireshane/helper",
+    "description": "A helper package for php ^8.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "allyfireshane\\helper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "allyfireshane",
+            "email": "allyfireshen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-intl": "*",
+        "ext-mbstring": "*",
+        "ext-simplexml": "*"
+    }
+}
